@@ -1,0 +1,24 @@
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.borde{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo{
+  padding-top: 50px;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (max-width : 768px) {
+	.titulo{
+    padding-top: 10px;
+
+  }
+}

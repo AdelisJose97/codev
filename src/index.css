@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
@@ -19,6 +23,15 @@ code {
 
 .btn-primary{
   background-color: var(--main) !important;
+}
+.btn-dark{
+  background-color: #fff !important;
+  color: var(--main) !important;
+
+}
+.btn-outline-dark{
+  border-color: #fff !important;
+  color: #fff !important;
 }
 .btn-outline-primary{
   border-color: var(--main) !important;
@@ -35,4 +48,183 @@ code {
 
 .bg-primary-codev{
     background-color:var(--main) !important;
+}
+
+.header-title{
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+}
+.header-subtitle{
+   font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.form-control-codev{
+  margin-bottom: 15px ;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  position: relative !important;
+  border-radius: 1.5rem !important;
+  border: 1px solid #999999 !important;
+  font-size: 12px !important;
+  padding: 0 16px !important;
+  height: 46px !important;
+}
+
+.signup-header-submit{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  padding: 19px 75px;
+  background-color:var(--main) !important;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+}
+.signup-header-submit:focus{
+  outline: white;
+
+}
+
+.signup-header-divider{
+  position: relative;
+    height: 1px;
+    background-color: #cccccc;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-header-divider span{
+  display: flex;
+  background-color: white;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #7c7e81
+}
+
+.signup-header-social-logins{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.signup-header-social-login{
+  cursor: pointer;
+    outline: none;
+    margin: 0 7px;
+    border: none;
+    background: transparent;
+}
+.signup-header-social-login:focus{
+  outline: white;
+}
+
+.home-course{
+  background-color: #204766;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 216px;
+    min-height: 216px;
+    border-radius: 20px 20px 0px 0px;
+}
+.home-course img{
+  max-width: 80px;
+  height: auto;
+}
+
+.home-card-course{
+  box-shadow: 0px 0px 15.4533px rgba(0, 0, 0, 0.3) !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+.home-card-course-btn{
+  padding: 15px 22px !important;
+  background-color:var(--main) !important;
+  border-radius: 100px !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+    text-align: center !important;
+    letter-spacing: -0.02em !important;
+    color: #FFFFFF !important;
+    border: 2px solid white !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease-in !important;
+}
+
+.home-card-course-btn:hover{
+  color:var(--main) !important;
+    background-color: #fff !important;
+    border-color: var(--main) !important;
+
+}
+.home-courses-view-all{
+  color:var(--main) !important;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 500;
+  transition: all 0.2s ease-in;
+  padding: 5px;
+  font-size: 29px;
+  cursor: pointer;
+}
+
+.home-become{
+  background-color: var(--main) !important;
+  color: #fff;
+  padding: 140px 5%;
+}
+
+.home-become-title{
+  font-size: 55px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+
+.home-become-btn{
+  padding: 18px 30px !important;
+    background: #FFFFFF !important;
+    border-radius: 50px !important;
+    border: 2px solid var(--main) !important;
+    font-size: 21px !important;
+    line-height: 25px !important;
+    text-align: center !important;
+    letter-spacing: -0.02em !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    width: 30% !important;
+}
+
+.home-footer{
+  box-shadow: 0 0 8px rgba(0,0,0,.101562);
+  width: 100%;
+  padding: 20px 5%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.home-footer-slogan{
+  font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.links-footer{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
 }

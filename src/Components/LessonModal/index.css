@@ -1,0 +1,87 @@
+.lesson-container{
+  height: 100vh ;
+  width: 100% ;
+  display: flex ;
+  flex-direction: column ;
+  justify-content: center ;
+  
+}
+
+.lesson-header{
+  position: relative;
+    display: flex;
+    top: 0px;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    
+}
+
+.lesson-footer{
+  position: relative;
+    bottom: 0;
+    padding: 40px;
+    width: 100%;
+}
+
+.lesson-content{
+    width: 100%;
+    padding: 0 32px;
+    overflow: auto;
+}
+
+.lesson-content-container{
+  width: 100%;
+  max-width: 567px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.lesson-footer{
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #dce2e5;
+  padding: 24px 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  justify-content: center;
+}
+
+.lesson-footer-container{
+  width: 567px;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.lesson-footer-button{
+  height: 48px;
+  width: 165px;
+  border: none;
+  background: var(--main);
+  border-radius: 4px;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.lesson-footer-button:hover{
+  background: #00c58ed9;
+  outline: none;
+}
+.lesson-footer-button:focus{
+  background: #00c58ed9;
+  outline: none;
+
+}
+
+.progress-bar{
+  background-color:#00c58ed9 !important;
+}
